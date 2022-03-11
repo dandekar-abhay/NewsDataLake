@@ -4,7 +4,7 @@ import logging
 from appexceptions.Exceptions import ShouldNotBeCalledException, InvalidArgumentException
 
 currentConfig = "local"
-logging.basicConfig(filename='/tmp/sdl.log', level=logging.INFO)
+logging.basicConfig(filename='/tmp/ndl.log', level=logging.INFO)
 
 
 def getConfig():
